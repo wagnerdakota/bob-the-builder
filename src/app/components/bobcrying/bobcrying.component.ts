@@ -12,7 +12,7 @@ export class BobcryingComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  cancel() {
+  cancel(): void {
     this.location.back()
   }
 
