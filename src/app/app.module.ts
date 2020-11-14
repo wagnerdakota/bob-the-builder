@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 import { WelcomeModule } from './components/welcome/welcome.module'
 import { BobcryingModule } from './components/bobcrying/bobcrying.module'
+import { NewbobModule } from './components/newbob/newbob.module'
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BobcryingModule } from './components/bobcrying/bobcrying.module'
     BrowserModule,
     AppRoutingModule,
     WelcomeModule,
-    BobcryingModule
+    BobcryingModule,
+    NewbobModule
   ],
   providers: [],
   bootstrap: [AppComponent]

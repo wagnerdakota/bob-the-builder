@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core'
 import { Routes, RouterModule } from '@angular/router'
 import { BobcryingComponent } from './components/bobcrying/bobcrying.component'
+import { NewbobComponent } from './components/newbob/newbob.component'
 import { WelcomeComponent } from './components/welcome/welcome.component'
 
 const routes: Routes = [
@@ -15,6 +16,10 @@ const routes: Routes = [
   {
     path: 'divorced',
     component: BobcryingComponent
+  },
+  {
+    path: 'changeforher',
+    component: NewbobComponent
   }
 ]
 
